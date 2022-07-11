@@ -3,7 +3,7 @@
 //The pin sending the pulses
 #define pulsePin 2
 
-//void sendSignal(int selection);
+//Create an instance
 OPS sender(pulsePin);
 
 void setup() {
