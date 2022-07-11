@@ -3,6 +3,7 @@
 //The pin sending the pulses
 #define pulsePin 2
 
+//Creating an instance
 OPS Receiver(pulsePin);
 
 void setup(){
