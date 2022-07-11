@@ -12,10 +12,10 @@ Long story short it depends on the time between two consecutive HIGH signals and
 Firstly a handshake method is conducted to ensure both sides are ready for communication, then the sequence starts to operate
 
 ## Features
-- You can send any integer number ranging from 1 to 1635 (due to memory issues)
-- You can send an array of elements directly (directly means no conversion is required and an api can handle the array)
-- You can send a character directly
-- You can send a string directly
+- You can send or receive any integer number ranging from 1 to 1635 (due to memory issues)
+- You can send or receive an array of elements directly (directly means no conversion is required and an api can handle the array)
+- You can send or receive a character directly
+- You can send or receive a string directly
 
 ## Limitations
 - Only arduinos with ATmega chips or chips that support reading from an output pin are supported.
