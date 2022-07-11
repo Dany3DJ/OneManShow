@@ -33,3 +33,10 @@ Firstly a handshake method is conducted to ensure both sides are ready for commu
 - myChar = InstanceName.ReceiveC(); -> Receive a characted
 - myArray = InstanceName.GetMSG(array, arraySize); -> Receive an array of integers of expected size "arraySize"
 - myString = InstanceName.GetMSG(); -> Receive a string
+
+## To import the library
+- Download the OnePinShow.zip file
+- Open your arduino IDE
+- Under the "Sketch" tab, select "Include Library", then select "Add .Zip Library"
+- Navigate to the downloaded zip file and select it
+- Again uder the "Sketch" tab, select "Include Library", then you should find OnePinShow under the "Contributed lbraries" section
