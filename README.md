@@ -30,7 +30,7 @@ Firstly a handshake method is conducted to ensure both sides are ready for commu
 - InstanceName.SendMSG( array, arraySize); -> Send an array of integers of size "arraySize"
 - InstanceName.SendMSG("String"); -> Send any string, keeping in mind that longer strings require more time
 - myInt = InstanceName.Receive(); -> Receive an integer
-- myChar = InstanceName.ReceiveC(); -> Receive a characted
+- myChar = InstanceName.ReceiveC(); -> Receive a character
 - myArray = InstanceName.GetMSG(array, arraySize); -> Receive an array of integers of expected size "arraySize"
 - myString = InstanceName.GetMSG(); -> Receive a string
 
